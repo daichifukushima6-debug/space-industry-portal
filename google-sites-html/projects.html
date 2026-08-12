@@ -1,0 +1,359 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>世界の注目宇宙プロジェクト | 宇宙産業ポータル</title>
+<meta name="description" content="北米、中国、ヨーロッパ、日本、インド、その他各国の注目宇宙プロジェクトを地域別に整理">
+<style>
+:root{--bg:#020a18;--panel:#07192e;--text:#f4f9ff;--muted:#91a6bb;--line:rgba(255,255,255,.1);--cyan:#4ee5d5;--blue:#4f9cff}*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:150px}body{margin:0;min-height:100vh;color:var(--text);font-family:Inter,"Noto Sans JP",system-ui,sans-serif;background:radial-gradient(circle at 50% 10%,rgba(26,101,164,.18),transparent 28%),linear-gradient(180deg,#020917,#030c1b 55%,#020916);overflow-x:hidden}body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.3;background-image:radial-gradient(circle,rgba(255,255,255,.85) 0 1px,transparent 1.4px);background-size:79px 79px}a{color:inherit;text-decoration:none}button,input{font:inherit}.header{height:68px;display:flex;align-items:center;gap:34px;padding:0 28px;border-bottom:1px solid var(--line);background:rgba(2,10,24,.88);backdrop-filter:blur(18px);position:sticky;top:0;z-index:50}.brand{display:flex;align-items:center;gap:12px;font-weight:800;letter-spacing:.08em;white-space:nowrap}.brand-mark{width:36px;height:36px;border:1px solid #88b8ee;border-radius:50%;display:grid;place-items:center;box-shadow:0 0 20px rgba(60,141,255,.25)}.nav{display:flex;gap:30px;font-size:14px;color:#b4c3d6;white-space:nowrap}.nav a{position:relative}.nav a.active{color:#fff}.nav a.active:after{content:"";position:absolute;left:0;right:0;top:33px;height:2px;background:#4a9cff;border-radius:2px}.search{margin-left:auto;display:flex;align-items:center;gap:9px;border:1px solid var(--line);border-radius:14px;padding:9px 13px;background:rgba(255,255,255,.05);color:#8fa5bb}.search input{width:190px;border:0;outline:0;background:transparent;color:#fff}.search input::placeholder{color:#71869c}.hero{position:relative;z-index:1;max-width:1600px;margin:auto;padding:60px 38px 38px}.eyebrow{display:flex;align-items:center;gap:10px;color:#65d9ff;font-size:11px;font-weight:850;letter-spacing:.2em}.eyebrow:before{content:"";width:28px;height:2px;background:#4f9cff;box-shadow:0 0 12px #4f9cff}.hero-grid{display:grid;grid-template-columns:1fr auto;align-items:end;gap:36px;margin-top:16px}.hero h1{max-width:860px;margin:0;font-size:clamp(40px,5vw,68px);line-height:1.08;letter-spacing:.01em}.hero p{max-width:730px;margin:18px 0 0;color:#a8bad0;font-size:15px;line-height:1.9}.stats{display:grid;grid-template-columns:repeat(3,110px);gap:10px}.stat{padding:15px 13px;border:1px solid var(--line);border-radius:15px;background:rgba(7,25,46,.7)}.stat strong{display:block;font-size:25px}.stat span{display:block;margin-top:5px;color:#71879d;font-size:9px;letter-spacing:.08em}.region-nav-wrap{position:sticky;top:68px;z-index:40;border-top:1px solid rgba(255,255,255,.06);border-bottom:1px solid var(--line);background:rgba(3,13,28,.9);backdrop-filter:blur(18px)}.region-nav{max-width:1600px;margin:auto;padding:10px 38px;display:flex;gap:8px;overflow-x:auto;scrollbar-width:none}.region-nav::-webkit-scrollbar{display:none}.region-chip{display:inline-flex;align-items:center;gap:8px;flex:0 0 auto;padding:9px 13px;border:1px solid var(--line);border-radius:999px;color:#a9bbcd;background:rgba(255,255,255,.025);font-size:11px;font-weight:750}.region-chip:hover,.region-chip:focus-visible{color:#fff;border-color:var(--chip);box-shadow:0 0 18px color-mix(in srgb,var(--chip) 22%,transparent);outline:none}.projects-shell{position:relative;z-index:1;max-width:1600px;margin:auto;padding:24px 38px 70px}.result-summary{min-height:22px;margin:0 0 8px;color:#80a0ba;font-size:12px}.region-section{--region:#4f9cff;margin-top:28px;padding:24px;border:1px solid color-mix(in srgb,var(--region) 28%,rgba(255,255,255,.08));border-radius:24px;background:linear-gradient(145deg,color-mix(in srgb,var(--region) 5%,rgba(6,22,42,.88)),rgba(4,16,32,.9));box-shadow:0 18px 55px rgba(0,0,0,.18)}.region-section[hidden]{display:none}.region-header{display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:16px;margin-bottom:18px}.region-number{display:grid;place-items:center;width:50px;height:50px;border:1px solid var(--region);border-radius:15px;color:var(--region);font-size:12px;font-weight:900;box-shadow:inset 0 0 18px color-mix(in srgb,var(--region) 12%,transparent)}.region-title h2{margin:0;font-size:24px}.region-title small{display:block;margin-top:4px;color:var(--region);font-size:10px;font-weight:850;letter-spacing:.17em}.region-summary{max-width:570px;margin:0;color:#8fa6bb;font-size:12px;line-height:1.7;text-align:right}.project-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.project-card{position:relative;display:flex;flex-direction:column;min-height:272px;padding:20px;border:1px solid rgba(255,255,255,.1);border-radius:18px;background:linear-gradient(160deg,rgba(15,43,70,.92),rgba(5,18,35,.97));transition:.22s transform,.22s border-color,.22s box-shadow}.project-card:hover{transform:translateY(-4px);border-color:color-mix(in srgb,var(--region) 58%,transparent);box-shadow:0 15px 36px rgba(0,0,0,.27),0 0 24px color-mix(in srgb,var(--region) 10%,transparent)}.project-card[hidden]{display:none}.card-top{display:flex;align-items:center;justify-content:space-between;gap:10px}.status{display:inline-flex;align-items:center;gap:6px;padding:5px 8px;border:1px solid color-mix(in srgb,var(--region) 35%,transparent);border-radius:999px;color:color-mix(in srgb,var(--region) 85%,white);font-size:9px;font-weight:850}.status:before{content:"";width:5px;height:5px;border-radius:50%;background:var(--region);box-shadow:0 0 8px var(--region)}.horizon{color:#7790a7;font-size:9px;font-weight:700}.project-card h3{margin:17px 0 6px;font-size:19px;line-height:1.35}.agency{color:var(--region);font-size:10px;font-weight:800;letter-spacing:.03em}.project-card p{margin:13px 0 17px;color:#a9bbca;font-size:12px;line-height:1.75}.tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:auto}.tag{padding:5px 7px;border-radius:7px;background:rgba(255,255,255,.05);color:#91a8bc;font-size:9px}.source{display:inline-flex;align-items:center;gap:6px;margin-top:16px;color:#cde9f8;font-size:10px;font-weight:800}.source:hover{color:var(--region)}.source:after{content:"↗"}.region-toggle{display:flex;align-items:center;justify-content:center;gap:8px;margin:15px auto 0;padding:9px 15px;border:1px solid color-mix(in srgb,var(--region) 43%,transparent);border-radius:999px;background:color-mix(in srgb,var(--region) 7%,rgba(4,18,35,.95));color:#dfedfa;font-size:11px;font-weight:850;cursor:pointer}.region-toggle:hover,.region-toggle:focus-visible{border-color:var(--region);box-shadow:0 0 24px color-mix(in srgb,var(--region) 15%,transparent);outline:none}.region-toggle[hidden]{display:none}.empty{display:none;padding:70px 20px;text-align:center;color:#96aabd}.empty strong{display:block;margin-bottom:8px;color:#eef8ff;font-size:22px}.footer{position:relative;z-index:1;padding:28px 20px 38px;border-top:1px solid var(--line);text-align:center;color:#667d93;font-size:10px;line-height:1.8}
+@media(max-width:1180px){.hero-grid{grid-template-columns:1fr}.stats{grid-template-columns:repeat(3,minmax(100px,1fr));max-width:480px}.project-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.region-header{grid-template-columns:auto 1fr}.region-summary{grid-column:1/-1;max-width:none;text-align:left}.search input{width:130px}}
+@media(max-width:820px){.header{padding:0 15px;gap:16px}.brand span:last-child{display:none}.nav{gap:18px;overflow-x:auto;scrollbar-width:none}.nav a:nth-child(2),.nav a:last-child{display:none}.search{display:none}.hero{padding:40px 17px 28px}.hero p{font-size:13px}.stats{grid-template-columns:repeat(3,1fr);gap:7px}.stat{padding:12px 9px}.stat strong{font-size:20px}.region-nav{padding:9px 17px}.projects-shell{padding:16px 17px 50px}.region-section{padding:17px;border-radius:20px}.project-grid{grid-template-columns:1fr}.project-card{min-height:0}.region-title h2{font-size:20px}}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}.project-card{transition:none}}
+</style>
+</head>
+<body>
+<header class="header">
+  <a class="brand" href="index.html"><span class="brand-mark">✦</span><span>宇宙産業ポータル</span></a>
+  <nav class="nav" aria-label="メインナビゲーション"><a href="index.html">ホーム</a><a href="index.html#map">宇宙産業俯瞰図</a><a href="investors.html">投資家</a><a class="active" href="projects.html" aria-current="page">プロジェクト</a><a href="#">ナレッジ</a></nav>
+  <label class="search">⌕<input id="projectSearch" aria-label="プロジェクトを検索" placeholder="プロジェクトを検索"></label>
+</header>
+<main>
+  <section class="hero">
+    <div class="eyebrow">GLOBAL PROJECT INTELLIGENCE</div>
+    <div class="hero-grid">
+      <div><h1>世界で動く、<br>宇宙プロジェクト。</h1><p>各国・地域の宇宙政策、国家ミッション、基幹インフラを俯瞰。計画時期は変更される可能性があるため、カードから各機関の公式情報を確認できます。</p></div>
+      <div class="stats" aria-label="掲載概要"><div class="stat"><strong id="projectCount">27</strong><span>PROJECTS</span></div><div class="stat"><strong>06</strong><span>REGIONS</span></div><div class="stat"><strong>2026.08</strong><span>VERIFIED</span></div></div>
+    </div>
+  </section>
+  <div class="region-nav-wrap"><nav class="region-nav" id="regionNav" aria-label="地域を選択"></nav></div>
+  <section class="projects-shell"><p class="result-summary" id="resultSummary">各地域3件を表示しています。</p><div id="projectRegions"></div><div class="empty" id="emptyProjects"><strong>該当するプロジェクトがありません</strong>検索語を変えてお試しください。</div></section>
+</main>
+<footer class="footer">掲載内容は各機関の公開情報を基にした概況です。計画・日程・仕様は変更される場合があります。<br>© Space Industry Portal — Internal Use</footer>
+<script>
+window.SPACE_PROJECT_REGIONS = [
+  {
+    id: "north-america",
+    num: "01",
+    label: "アメリカ（北米）",
+    en: "NORTH AMERICA",
+    icon: "🌎",
+    color: "#4f9cff",
+    summary: "有人月探査、商業宇宙ステーション、安全保障打上げ、LEO通信網を中心に大型案件が進行。",
+    projects: [
+      {
+        title: "Artemis / Moon to Mars",
+        agency: "NASA・国際パートナー",
+        status: "進行中",
+        horizon: "2026–",
+        desc: "月への有人帰還と持続的な月面活動を段階的に実現し、将来の火星探査へつなげる中核プログラム。",
+        tags: ["月探査", "有人宇宙", "月面インフラ"],
+        source: "https://www.nasa.gov/news-release/nasa-adds-mission-to-artemis-lunar-program-updates-architecture/"
+      },
+      {
+        title: "Commercial LEO Destinations",
+        agency: "NASA・米国民間企業",
+        status: "開発中",
+        horizon: "2030移行目標",
+        desc: "ISS退役後を見据え、Axiom Station、Orbital Reef、Starlabなど民間低軌道拠点を育成する計画。",
+        tags: ["商業宇宙ステーション", "LEO", "微小重力利用"],
+        source: "https://www.nasa.gov/humans-in-space/commercial-space/commercial-space-stations/"
+      },
+      {
+        title: "National Security Space Launch Phase 3",
+        agency: "U.S. Space Force",
+        status: "調達・実行中",
+        horizon: "FY2026–",
+        desc: "測位、軍事通信、偵察など重要衛星の打上げを複数事業者へ割り当て、国家安全保障の宇宙輸送を確保。",
+        tags: ["安全保障", "打上げ", "調達"],
+        source: "https://www.ssc.spaceforce.mil/Newsroom/Article/4348694/space-systems-command-releases-national-security-space-launch-phase-3-lane-2-fy"
+      },
+      {
+        title: "Telesat Lightspeed",
+        agency: "Telesat・カナダ政府",
+        status: "構築中",
+        horizon: "2026–2027",
+        desc: "カナダ主導の低軌道通信コンステレーション。遠隔地、航空、海運、防衛向けの低遅延通信を目指す。",
+        tags: ["衛星通信", "LEOコンステレーション", "カナダ"],
+        source: "https://ised-isde.canada.ca/site/ised/en/parliamentary-committee-briefing-materials/appearance-standing-committee-public-safety-and-national-security"
+      }
+    ]
+  },
+  {
+    id: "china",
+    num: "02",
+    label: "中国",
+    en: "CHINA",
+    icon: "🌕",
+    color: "#ff6f7f",
+    summary: "月南極、火星サンプルリターン、低軌道通信網を並行して進める国家規模の探査・インフラ計画。",
+    projects: [
+      {
+        title: "嫦娥7号（Chang’e-7）",
+        agency: "CNSA",
+        status: "打上げ準備",
+        horizon: "2026頃",
+        desc: "月南極域の表面環境、水氷、揮発性物質を探査し、将来の国際月面研究ステーションへ基礎データを提供。",
+        tags: ["月南極", "水資源", "ロボット探査"],
+        source: "https://www.cnsa.gov.cn/english/n6465652/n6465653/c10517200/content.html"
+      },
+      {
+        title: "嫦娥8号・ILRS基礎モデル",
+        agency: "CNSA・国際パートナー",
+        status: "開発中",
+        horizon: "2029頃",
+        desc: "月面資源利用の実験を行い、嫦娥7号とともに国際月面研究ステーションの基礎モデル構築を目指す。",
+        tags: ["ILRS", "月面資源", "国際協力"],
+        source: "https://www.cnsa.gov.cn/english/n6465652/n6465653/c10670293/content.html"
+      },
+      {
+        title: "天問3号（Tianwen-3）",
+        agency: "CNSA",
+        status: "開発中",
+        horizon: "2028–2031",
+        desc: "2機の長征5号で火星へ向かい、表面試料を採取して地球へ持ち帰ることを目指すサンプルリターン計画。",
+        tags: ["火星", "サンプルリターン", "深宇宙"],
+        source: "https://www.cnsa.gov.cn/english/n6465652/n6465653/c10743241/content.html"
+      },
+      {
+        title: "Spacesail（千帆星座）",
+        agency: "中国商業宇宙セクター",
+        status: "配備中",
+        horizon: "2026–",
+        desc: "多数の低軌道衛星で広域通信サービスを提供する商業コンステレーション。衛星群の継続的な打上げが進む。",
+        tags: ["衛星通信", "メガコンステレーション", "商業宇宙"],
+        source: "https://english.www.gov.cn/news/202605/13/content_WS6a03d20cc6d00ca5f9a0ae9d.html"
+      }
+    ]
+  },
+  {
+    id: "europe",
+    num: "03",
+    label: "ヨーロッパ",
+    en: "EUROPE",
+    icon: "🇪🇺",
+    color: "#4ee5d5",
+    summary: "自律的な宇宙アクセス、安全な通信、次世代測位、地球観測、月圏サービスを一体的に強化。",
+    projects: [
+      {
+        title: "IRIS² Secure Connectivity",
+        agency: "European Union",
+        status: "構築中",
+        horizon: "2029–",
+        desc: "LEOとMEOを組み合わせた290機規模の安全な通信網。政府、防災、重要インフラ、商用ブロードバンドを支援。",
+        tags: ["安全な通信", "マルチオービット", "デジタル主権"],
+        source: "https://defence-industry-space.ec.europa.eu/eu-space/iris2-secure-connectivity_en"
+      },
+      {
+        title: "Ariane 6 Evolution",
+        agency: "ESA・Arianespace",
+        status: "運用・高度化",
+        horizon: "2026–",
+        desc: "欧州の自律的宇宙アクセスを担う大型ロケット。4ブースター型やP160Cなど能力向上を継続。",
+        tags: ["打上げ", "大型ロケット", "欧州自律性"],
+        source: "https://www.esa.int/Enabling_Support/Space_Transportation/Ariane/Watch_live_bigger_booster_more_powerful_Ariane_6_launch"
+      },
+      {
+        title: "Galileo Second Generation",
+        agency: "EU・EUSPA・ESA",
+        status: "製造・打上げ準備",
+        horizon: "今後順次",
+        desc: "衛星間リンク、次世代原子時計、強化された測位性能とレジリエンスを備える欧州測位システムの更新計画。",
+        tags: ["衛星測位", "原子時計", "レジリエンス"],
+        source: "https://www.euspa.europa.eu/pressroom/press-releases/euspa-signs-new-ariane-6-launch-contract-galileo-second-generation"
+      },
+      {
+        title: "Moonlight LCNS",
+        agency: "ESA・欧州産業界",
+        status: "開発中",
+        horizon: "2028–2030",
+        desc: "月周回衛星5機で月南極を中心に通信・測位サービスを提供し、探査機の着陸や月面移動を支援。",
+        tags: ["月通信", "月測位", "月圏経済"],
+        source: "https://www.esa.int/Newsroom/Press_Releases/ESA_launches_Moonlight_to_establish_lunar_communications_and_navigation_infrastructure"
+      },
+      {
+        title: "Copernicus Expansion Missions",
+        agency: "EU・ESA",
+        status: "開発中",
+        horizon: "2026–",
+        desc: "CO₂、極域氷、地表温度、植生などを高精度で観測する6つのSentinel拡張ミッション。",
+        tags: ["地球観測", "気候", "Sentinel"],
+        source: "https://www.esa.int/Applications/Observing_the_Earth/FutureEO/Preparing_for_tomorrow/Scientific_and_technical_mission_documents"
+      }
+    ]
+  },
+  {
+    id: "japan",
+    num: "04",
+    label: "日本",
+    en: "JAPAN",
+    icon: "🇯🇵",
+    color: "#ffb75e",
+    summary: "深宇宙探査、独自測位、基幹ロケット、宇宙ステーション補給を軸に技術基盤を拡張。",
+    projects: [
+      {
+        title: "MMX 火星衛星探査計画",
+        agency: "JAXA・国際パートナー",
+        status: "打上げ準備",
+        horizon: "2026年度",
+        desc: "火星衛星フォボスへ着陸し、10g以上の試料を採取して地球へ持ち帰る世界初の火星圏サンプルリターン。",
+        tags: ["フォボス", "サンプルリターン", "H3"],
+        source: "https://www.mmx.jaxa.jp/en/"
+      },
+      {
+        title: "準天頂衛星システム 7機体制",
+        agency: "内閣府・JAXA",
+        status: "構築中",
+        horizon: "2026",
+        desc: "日本独自の高精度測位基盤「みちびき」を7機体制へ拡張し、安定した測位・時刻サービスを強化。",
+        tags: ["QZSS", "高精度測位", "社会インフラ"],
+        source: "https://qzss.go.jp/7satellite-constellation/"
+      },
+      {
+        title: "H3ロケット運用・高度化",
+        agency: "JAXA・MHI",
+        status: "運用・改善中",
+        horizon: "2026–",
+        desc: "政府衛星、探査機、商業衛星の打上げを担う日本の基幹ロケット。複数形態の確立と信頼性向上を進める。",
+        tags: ["基幹ロケット", "宇宙輸送", "商業打上げ"],
+        source: "https://global.jaxa.jp/press/h3/"
+      },
+      {
+        title: "HTV-X 次世代補給機",
+        agency: "JAXA",
+        status: "実証・運用",
+        horizon: "2025–",
+        desc: "ISSへの補給に加え、離脱後の軌道上技術実証や将来のGateway補給への発展を見据えた宇宙機。",
+        tags: ["ISS補給", "軌道上実証", "Gateway"],
+        source: "https://global.jaxa.jp/projects/iss_human/htv-x/index.html"
+      },
+      {
+        title: "LUPEX 月極域探査",
+        agency: "JAXA・ISRO",
+        status: "開発中",
+        horizon: "2026年度以降",
+        desc: "月極域の水資源の量・分布・利用可能性を調べ、持続的な月面活動へ必要な探査技術を実証する日印共同計画。",
+        tags: ["月極域", "水資源", "日印協力"],
+        source: "https://global.jaxa.jp/projects/in_progress.html"
+      }
+    ]
+  },
+  {
+    id: "india",
+    num: "05",
+    label: "インド",
+    en: "INDIA",
+    icon: "🇮🇳",
+    color: "#9be15d",
+    summary: "有人飛行、月面試料帰還、独自宇宙ステーション、再使用型大型輸送へ段階的に能力を拡張。",
+    projects: [
+      {
+        title: "Gaganyaan",
+        agency: "ISRO",
+        status: "試験・準備中",
+        horizon: "2026目標",
+        desc: "最大3名を約400kmの低軌道へ送り、安全に帰還させるインド初の独自有人宇宙飛行プログラム。",
+        tags: ["有人宇宙", "LEO", "クルーモジュール"],
+        source: "https://www.isro.gov.in/ISRO_EN/Gaganyaan.html"
+      },
+      {
+        title: "Chandrayaan-4",
+        agency: "ISRO",
+        status: "計画・開発中",
+        horizon: "2027–2028",
+        desc: "月面で2〜3kgの試料を採取し、月周回軌道でのドッキングと地球帰還を実証する月試料帰還計画。",
+        tags: ["月探査", "サンプルリターン", "軌道上ドッキング"],
+        source: "https://www.isro.gov.in/ISRO_Nationalsciencemeet_ch4.html"
+      },
+      {
+        title: "Bharatiya Antariksh Station",
+        agency: "ISRO",
+        status: "構想・技術開発",
+        horizon: "2035",
+        desc: "継続的な低軌道滞在と微小重力研究を可能にするインド独自宇宙ステーション構想。Gaganyaan技術を発展。",
+        tags: ["宇宙ステーション", "微小重力", "長期滞在"],
+        source: "https://www.isro.gov.in/ISRO_EN/IndianMicrogravityExperiments_IMEx2026.html"
+      },
+      {
+        title: "Next Generation Launch Vehicle",
+        agency: "ISRO",
+        status: "開発中",
+        horizon: "2030年代",
+        desc: "LOX・メタンエンジンと垂直着陸式の再使用第1段を採用し、LEOへ最大30トン級を目指す次世代輸送系。",
+        tags: ["再使用ロケット", "LOXメタン", "大型輸送"],
+        source: "https://www.isro.gov.in/media_isro/pdf/AnnualReport/Annual_Report_2025-26_EN_28042026.pdf"
+      },
+      {
+        title: "Venus Orbiter Mission",
+        agency: "ISRO",
+        status: "承認・開発中",
+        horizon: "計画中",
+        desc: "金星の大気、表面、太陽風との相互作用を全球的に観測し、エアロブレーキングなどの技術も実証。",
+        tags: ["金星", "惑星科学", "エアロブレーキング"],
+        source: "https://www.isro.gov.in/ISRO_EN/UnionCabinetApprovesIndiasMission.html"
+      }
+    ]
+  },
+  {
+    id: "other-countries",
+    num: "06",
+    label: "その他各国",
+    en: "OTHER COUNTRIES",
+    icon: "🛰️",
+    color: "#b991ff",
+    summary: "UAE、韓国、オーストラリア、ブラジルなどが深宇宙・測位・月面ロボット・地球観測へ参入。",
+    projects: [
+      {
+        title: "Emirates Mission to the Asteroid Belt",
+        agency: "UAE Space Agency",
+        status: "組立・試験中",
+        horizon: "2028打上げ",
+        desc: "MBR Explorerが7つの小惑星を探査し、最終的にJustitiaへランダーを展開するUAEの深宇宙計画。",
+        tags: ["UAE", "小惑星", "深宇宙"],
+        source: "https://www.space.gov.ae/en/projects-and-initiatives/space-exploration/emirates-mission-to-the-asteroid-belt"
+      },
+      {
+        title: "Korean Positioning System",
+        agency: "KASA・韓国",
+        status: "開発中",
+        horizon: "段階整備",
+        desc: "韓国と周辺地域へ独自の高精度な測位・航法・時刻情報を提供する地域衛星測位システム。",
+        tags: ["韓国", "衛星測位", "PNT"],
+        source: "https://www.kasa.go.kr/eng/sub02_02.do"
+      },
+      {
+        title: "Roo-ver / Trailblazer",
+        agency: "Australian Space Agency・NASA",
+        status: "開発中",
+        horizon: "2020年代後半",
+        desc: "豪州製月面ローバーがレゴリスを採取し、NASAの酸素抽出技術実証を支援するMoon to Mars計画。",
+        tags: ["オーストラリア", "月面ローバー", "資源利用"],
+        source: "https://www.industry.gov.au/news/competition-to-name-australias-lunar-rover"
+      },
+      {
+        title: "CBERS-6",
+        agency: "ブラジル・中国",
+        status: "共同開発中",
+        horizon: "2028予定",
+        desc: "雲、煙、夜間でも観測できる合成開口レーダーを搭載し、環境・災害監視を強化する地球観測衛星。",
+        tags: ["ブラジル", "SAR", "地球観測"],
+        source: "https://www.gov.br/aeb/pt-br/assuntos/noticias/decreto-legislativo-aprova-texto-do-protocolo-complementar-de-desenvolvimento-conjunto-do-cbers-6"
+      }
+    ]
+  }
+];
+
+</script>
+<script>
+const esc=s=>String(s??"").replace(/[&<>'"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;","'":"&#39;",'"':"&quot;"}[c]));
+const regions=window.SPACE_PROJECT_REGIONS||[],INITIAL_LIMIT=3,regionsRoot=document.getElementById("projectRegions"),regionNav=document.getElementById("regionNav"),searchInput=document.getElementById("projectSearch"),resultSummary=document.getElementById("resultSummary"),emptyProjects=document.getElementById("emptyProjects");
+document.getElementById("projectCount").textContent=regions.reduce((sum,region)=>sum+region.projects.length,0);
+regionNav.innerHTML=regions.map(region=>`<a class="region-chip" style="--chip:${esc(region.color)}" href="#${esc(region.id)}"><span aria-hidden="true">${esc(region.icon)}</span>${esc(region.label)}</a>`).join("");
+function projectCard(project,index){const searchText=[project.title,project.agency,project.status,project.horizon,project.desc,...project.tags].join(" ").toLowerCase();return `<article class="project-card" data-index="${index}" data-search="${esc(searchText)}"${index>=INITIAL_LIMIT?" hidden":""}><div class="card-top"><span class="status">${esc(project.status)}</span><span class="horizon">${esc(project.horizon)}</span></div><h3>${esc(project.title)}</h3><div class="agency">${esc(project.agency)}</div><p>${esc(project.desc)}</p><div class="tags">${project.tags.map(tag=>`<span class="tag">${esc(tag)}</span>`).join("")}</div><a class="source" href="${esc(project.source)}" target="_blank" rel="noopener noreferrer">公式情報</a></article>`}
+regionsRoot.innerHTML=regions.map(region=>`<section class="region-section" id="${esc(region.id)}" style="--region:${esc(region.color)}" data-region="${esc(region.id)}" data-expanded="false"><header class="region-header"><span class="region-number">${esc(region.num)}</span><div class="region-title"><h2>${esc(region.icon)} ${esc(region.label)}</h2><small>${esc(region.en)}</small></div><p class="region-summary">${esc(region.summary)}</p></header><div class="project-grid">${region.projects.map(projectCard).join("")}</div>${region.projects.length>INITIAL_LIMIT?`<button class="region-toggle" type="button" aria-expanded="false">さらに${region.projects.length-INITIAL_LIMIT}件を表示 <span aria-hidden="true">⌄</span></button>`:""}</section>`).join("");
+document.querySelectorAll(".region-toggle").forEach(button=>button.addEventListener("click",()=>{const section=button.closest(".region-section"),expanded=section.dataset.expanded!=="true";section.dataset.expanded=String(expanded);button.setAttribute("aria-expanded",String(expanded));button.innerHTML=expanded?'折りたたむ <span aria-hidden="true">⌃</span>':`さらに${section.querySelectorAll(".project-card").length-INITIAL_LIMIT}件を表示 <span aria-hidden="true">⌄</span>`;updateVisibility()}));
+function updateVisibility(){const query=searchInput.value.trim().toLowerCase();let visible=0;document.querySelectorAll(".region-section").forEach(section=>{const expanded=section.dataset.expanded==="true",cards=[...section.querySelectorAll(".project-card")],button=section.querySelector(".region-toggle");let regionMatches=0;cards.forEach(card=>{const index=Number(card.dataset.index),matches=!query||card.dataset.search.includes(query);card.hidden=query?!matches:(!expanded&&index>=INITIAL_LIMIT);if(!card.hidden){visible++;regionMatches++}});section.hidden=!!query&&!regionMatches;if(button)button.hidden=!!query});emptyProjects.style.display=visible?"none":"block";resultSummary.textContent=query?`${visible}件のプロジェクトが見つかりました。`:"各地域3件を表示しています。"}
+searchInput.addEventListener("input",updateVisibility);document.addEventListener("keydown",event=>{if(event.key==="Escape"){searchInput.value="";updateVisibility();searchInput.blur()}});updateVisibility();
+</script>
+</body>
+</html>

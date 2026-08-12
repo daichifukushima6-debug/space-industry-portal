@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>宇宙産業の投資家 | 宇宙産業ポータル</title>
+<meta name="description" content="宇宙産業に投資する事業会社、ベンチャーキャピタル、PE・グロース投資家の一覧">
+<style>
+:root{--bg:#020a18;--panel:rgba(7,24,44,.82);--text:#f6fbff;--muted:#9fb1c8;--blue:#3c8dff;--cyan:#40e0d0;--purple:#a875ff;--gold:#f3bd55;--line:rgba(255,255,255,.1)}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--text);font-family:Inter,"Noto Sans JP",system-ui,sans-serif;background:radial-gradient(circle at 72% 6%,rgba(168,117,255,.16),transparent 24%),radial-gradient(circle at 15% 28%,rgba(60,141,255,.14),transparent 26%),linear-gradient(180deg,#020917,#030c1b);min-height:100vh}body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.3;background-image:radial-gradient(circle,rgba(255,255,255,.85) 0 1px,transparent 1.4px);background-size:83px 83px}a{color:inherit;text-decoration:none}button,input{font:inherit}.header{height:68px;display:flex;align-items:center;gap:34px;padding:0 28px;border-bottom:1px solid var(--line);background:rgba(2,10,24,.86);backdrop-filter:blur(18px);position:sticky;top:0;z-index:40}.brand{display:flex;align-items:center;gap:12px;font-weight:800;letter-spacing:.08em;white-space:nowrap}.brand-mark{width:36px;height:36px;border:1px solid #88b8ee;border-radius:50%;display:grid;place-items:center;box-shadow:0 0 20px rgba(60,141,255,.25)}.nav{display:flex;gap:28px;font-size:14px;color:#b4c3d6}.nav a{height:68px;display:flex;align-items:center;position:relative}.nav a:hover,.nav a:focus-visible{color:#fff;outline:none}.nav a.active{color:#fff}.nav a.active:after{content:"";position:absolute;left:0;right:0;bottom:0;height:2px;background:linear-gradient(90deg,var(--blue),var(--purple));border-radius:2px}.header-badge{margin-left:auto;color:#d5e8ff;font-size:12px;padding:8px 12px;border:1px solid rgba(60,141,255,.35);border-radius:999px;background:rgba(60,141,255,.08)}.hero{max-width:1440px;margin:auto;padding:56px 38px 24px}.eyebrow{color:#8cc2ff;font-size:12px;font-weight:850;letter-spacing:.16em;text-transform:uppercase}.hero h1{margin:13px 0 0;font-size:clamp(38px,5vw,66px);line-height:1.05;letter-spacing:.01em}.hero h1 span{background:linear-gradient(90deg,#fff 12%,#88c6ff 52%,#c39cff);-webkit-background-clip:text;background-clip:text;color:transparent}.lead{max-width:760px;margin:18px 0 0;color:#b7c8da;line-height:1.85;font-size:15px}.summary{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:30px}.summary-card{border:1px solid var(--line);border-radius:18px;background:rgba(8,28,50,.65);padding:17px 18px}.summary-card strong{font-size:26px}.summary-card small{display:block;color:#91a8c0;margin-top:4px}.toolbar{max-width:1440px;margin:0 auto;padding:18px 38px;display:flex;align-items:center;gap:12px;position:sticky;top:68px;z-index:20;background:rgba(3,12,27,.88);backdrop-filter:blur(18px);border-block:1px solid rgba(255,255,255,.06)}.filters{display:flex;flex-wrap:wrap;gap:8px}.filter{border:1px solid var(--line);border-radius:999px;background:rgba(255,255,255,.04);color:#afc2d6;padding:9px 13px;cursor:pointer;transition:.2s}.filter:hover,.filter:focus-visible{color:#fff;border-color:#679fec;outline:none}.filter.active{color:#fff;border-color:#6daeff;background:rgba(60,141,255,.18)}.search{margin-left:auto;display:flex;align-items:center;gap:8px;border:1px solid var(--line);border-radius:13px;padding:9px 13px;background:rgba(255,255,255,.05);min-width:270px}.search input{border:0;outline:0;color:#fff;background:transparent;width:100%}.grid{max-width:1440px;margin:auto;padding:22px 38px 54px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.card{position:relative;overflow:hidden;border:1px solid var(--line);border-radius:22px;background:linear-gradient(160deg,rgba(12,39,67,.94),rgba(5,19,36,.96));padding:21px;min-height:330px;display:flex;flex-direction:column;transition:.22s}.card:before{content:"";position:absolute;width:180px;height:180px;right:-80px;top:-90px;border-radius:50%;background:radial-gradient(circle,var(--glow),transparent 68%);opacity:.35}.card:hover{transform:translateY(-5px);border-color:color-mix(in srgb,var(--accent) 50%,transparent);box-shadow:0 18px 45px rgba(0,0,0,.28),0 0 24px color-mix(in srgb,var(--accent) 12%,transparent)}.card[data-type="corporate"]{--accent:var(--cyan);--glow:var(--cyan)}.card[data-type="vc"]{--accent:var(--blue);--glow:var(--blue)}.card[data-type="pe"]{--accent:var(--purple);--glow:var(--purple)}.card[hidden]{display:none}.head{display:flex;align-items:flex-start;gap:14px;position:relative}.mark{flex:0 0 54px;height:54px;border-radius:15px;display:grid;place-items:center;background:rgba(255,255,255,.06);border:1px solid color-mix(in srgb,var(--accent) 38%,transparent);color:#fff;font-size:13px;font-weight:900;letter-spacing:.04em}.name{margin:0;font-size:19px;line-height:1.3}.type{color:var(--accent);font-size:11px;font-weight:850;margin-top:6px}.overview{color:#b9cada;font-size:13px;line-height:1.75;margin:18px 0 0}.meta{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:17px}.meta div{border:1px solid rgba(255,255,255,.07);border-radius:12px;background:rgba(255,255,255,.025);padding:9px 10px}.meta small{display:block;color:#8198af;font-size:10px}.meta span{display:block;margin-top:3px;color:#dceaf6;font-size:12px;font-weight:700}.section-label{margin:16px 0 8px;color:#8da4bb;font-size:10px;font-weight:800;letter-spacing:.1em}.tags{display:flex;flex-wrap:wrap;gap:6px}.tag{padding:6px 9px;border-radius:999px;border:1px solid rgba(255,255,255,.08);background:rgba(255,255,255,.035);font-size:11px;color:#c7d6e4}.portfolio{display:flex;flex-wrap:wrap;gap:6px}.portfolio span{font-size:11px;color:#e7f3fc}.portfolio span:not(:last-child):after{content:"·";margin-left:6px;color:#58728b}.source{margin-top:auto;padding-top:18px}.source a{display:inline-flex;align-items:center;gap:7px;color:#dceeff;font-size:12px;font-weight:800}.source a:hover{text-decoration:underline}.empty{display:none;grid-column:1/-1;text-align:center;border:1px dashed var(--line);border-radius:22px;padding:45px;color:#9fb1c8}.note{max-width:1440px;margin:-30px auto 34px;padding:0 38px;color:#758ba2;font-size:11px;line-height:1.7}.footer{padding:18px;text-align:center;color:#8094aa;font-size:12px;border-top:1px solid rgba(255,255,255,.06)}
+@media(max-width:1100px){.grid{grid-template-columns:repeat(2,1fr)}.summary{grid-template-columns:repeat(2,1fr)}}@media(max-width:800px){.header{padding:0 15px}.nav a:not(.active):not(.overview-link){display:none}.header-badge{display:none}.hero{padding:38px 16px 20px}.toolbar{top:68px;padding:13px 16px;align-items:stretch;flex-direction:column}.search{margin-left:0;min-width:0}.grid{padding:18px 16px 48px;grid-template-columns:1fr}.note{padding:0 16px}.summary{grid-template-columns:1fr 1fr}.summary-card strong{font-size:22px}}@media(max-width:430px){.brand span:last-child{display:none}.summary{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header class="header"><a class="brand" href="index.html"><span class="brand-mark">✦</span><span>宇宙産業ポータル</span></a><nav class="nav" aria-label="メインナビゲーション"><a class="overview-link" href="index.html">ホーム</a><a href="index.html#map">宇宙産業俯瞰図</a><a class="active" href="investors.html" aria-current="page">投資家</a><a href="projects.html">プロジェクト</a><a href="#">ナレッジ</a></nav><span class="header-badge">Investor Intelligence</span></header>
+<main><section class="hero"><div class="eyebrow">Capital Ecosystem</div><h1><span>宇宙産業の投資家</span></h1><p class="lead">宇宙ビジネスを支える事業会社、ベンチャーキャピタル、PE・グロース投資家を俯瞰。投資ステージ、注力領域、代表的な投資先から資金の流れを読み解きます。</p><div class="summary"><div class="summary-card"><strong id="totalCount">—</strong><small>掲載投資家</small></div><div class="summary-card"><strong id="corporateCount">—</strong><small>事業会社・CVC</small></div><div class="summary-card"><strong id="vcCount">—</strong><small>ベンチャーキャピタル</small></div><div class="summary-card"><strong id="peCount">—</strong><small>PE・グロース</small></div></div></section>
+<section class="toolbar" aria-label="投資家の絞り込み"><div class="filters" role="group" aria-label="投資家タイプ"><button class="filter active" data-filter="all">すべて</button><button class="filter" data-filter="corporate">事業会社・CVC</button><button class="filter" data-filter="vc">VC</button><button class="filter" data-filter="pe">PE・グロース</button></div><label class="search">⌕<input id="search" type="search" aria-label="投資家を検索" placeholder="投資家・投資先・テーマを検索"></label></section>
+<section id="grid" class="grid" aria-live="polite"><div id="empty" class="empty">条件に一致する投資家がありません。</div></section><p class="note">※ 公開情報をもとにした編集用の初期データです。投資先・投資ステージ・ファンド構成は変更される場合があります。投資判断を目的とする情報ではありません。</p></main><footer class="footer">© Space Industry Portal — Internal Use</footer>
+<script>
+(() => {
+  "use strict";
+
+  window.INVESTORS = [
+    {
+      id: "lockheed-martin-ventures", name: "Lockheed Martin Ventures", short: "LMV",
+      type: "corporate", typeLabel: "事業会社・CVC", region: "米国", stage: "Early–Growth",
+      focus: ["デュアルユース", "宇宙インフラ", "自律システム"],
+      portfolio: ["ABL Space Systems", "Terran Orbital", "Orbit Fab"],
+      overview: "Lockheed Martinの戦略領域と接続する先端技術企業へ投資するCVC。",
+      url: "https://www.lockheedmartin.com/en-us/who-we-are/lockheed-martin-ventures.html"
+    },
+    {
+      id: "airbus-ventures", name: "Airbus Ventures", short: "AV",
+      type: "corporate", typeLabel: "事業会社・CVC", region: "米国・欧州・日本", stage: "Seed–Growth",
+      focus: ["Deep Tech", "宇宙輸送", "地球観測"],
+      portfolio: ["ispace", "ICEYE", "Impulse Space"],
+      overview: "航空宇宙の長期的な技術変化を見据え、世界のアーリーステージ企業へ投資。",
+      url: "https://airbusventures.vc/portfolio/"
+    },
+    {
+      id: "boeing-horizonx", name: "Boeing HorizonX Ventures", short: "BX",
+      type: "corporate", typeLabel: "事業会社・CVC", region: "米国・グローバル", stage: "Early–Growth",
+      focus: ["衛星通信", "推進", "航空宇宙DX"],
+      portfolio: ["ALL.SPACE", "Accion Systems", "BridgeSat"],
+      overview: "Boeingの事業領域に近い航空宇宙技術と、新しいモビリティ技術を支援。",
+      url: "https://www.boeing.com/company/key-orgs/innovation/"
+    },
+    {
+      id: "rtx-ventures", name: "RTX Ventures", short: "RTX",
+      type: "corporate", typeLabel: "事業会社・CVC", region: "米国", stage: "Early–Growth",
+      focus: ["センシング", "セキュア通信", "推進・電力"],
+      portfolio: ["CesiumAstro", "SpiderOak", "Hermeus"],
+      overview: "航空宇宙・防衛の次世代技術を対象に、事業連携を重視した投資を実施。",
+      url: "https://www.rtx.com/who-we-are/ventures"
+    },
+    {
+      id: "kddi-open-innovation-fund", name: "KDDI Open Innovation Fund", short: "KDDI",
+      type: "corporate", typeLabel: "事業会社・CVC", region: "日本・グローバル", stage: "Seed–Growth",
+      focus: ["衛星通信", "月面ビジネス", "データ利活用"],
+      portfolio: ["ispace", "ソラコム", "通信・宇宙関連企業"],
+      overview: "通信と新規事業の接点を軸に、スタートアップとの事業共創を推進。",
+      url: "https://www.kddi.com/open-innovation-program/"
+    },
+    {
+      id: "sky-perfect-jsat", name: "スカパーJSAT", short: "JSAT",
+      type: "corporate", typeLabel: "事業会社・CVC", region: "日本", stage: "Strategic",
+      focus: ["衛星通信", "光通信", "軌道上サービス"],
+      portfolio: ["Warpspace", "Orbital Lasers", "宇宙データ関連企業"],
+      overview: "衛星運用とメディア事業の基盤を活用し、通信・光技術・宇宙利用へ戦略投資。",
+      url: "https://www.skyperfectjsat.space/"
+    },
+    {
+      id: "toyota", name: "トヨタ自動車", short: "TOYOTA",
+      type: "corporate", typeLabel: "事業会社・CVC", region: "日本", stage: "Strategic",
+      focus: ["ロケット量産", "月面モビリティ", "製造技術"],
+      portfolio: ["インターステラテクノロジズ", "月面モビリティ関連"],
+      overview: "自動車生産で培った量産技術とモビリティの知見を、宇宙輸送・月面活動へ展開。",
+      url: "https://global.toyota/jp/newsroom/corporate/"
+    },
+    {
+      id: "seraphim-space", name: "Seraphim Space", short: "SS",
+      type: "vc", typeLabel: "ベンチャーキャピタル", region: "英国・グローバル", stage: "Seed–Growth",
+      focus: ["SpaceTech全般", "気候・安全保障", "宇宙インフラ"],
+      portfolio: ["ICEYE", "D-Orbit", "LeoLabs", "HawkEye 360"],
+      overview: "宇宙特化ファンド、アクセラレーター、上場投資会社を通じて幅広い成長段階を支援。",
+      url: "https://seraphim.vc/portfolio/"
+    },
+    {
+      id: "space-capital", name: "Space Capital", short: "SC",
+      type: "vc", typeLabel: "ベンチャーキャピタル", region: "米国・グローバル", stage: "Early–Growth",
+      focus: ["宇宙インフラ", "配信基盤", "宇宙データ活用"],
+      portfolio: ["SpaceX", "Planet", "Impulse Space", "Muon Space"],
+      overview: "宇宙経済をInfrastructure・Distribution・Applicationsの技術層で捉える専門投資家。",
+      url: "https://www.spacecapital.com/portfolio"
+    },
+    {
+      id: "type-one-ventures", name: "Type One Ventures", short: "T1",
+      type: "vc", typeLabel: "ベンチャーキャピタル", region: "米国・グローバル", stage: "Pre-seed–Series A",
+      focus: ["宇宙インフラ", "Deep Tech", "文明規模の技術"],
+      portfolio: ["SpaceX", "Varda Space Industries", "Gravitics"],
+      overview: "宇宙・製造・エネルギーなど、長期的に大きな産業をつくるDeep Techへ投資。",
+      url: "https://typeoneventures.com/"
+    },
+    {
+      id: "starburst-ventures", name: "Starburst Ventures", short: "SB",
+      type: "vc", typeLabel: "ベンチャーキャピタル", region: "米国・欧州・アジア", stage: "Early Stage",
+      focus: ["航空宇宙", "防衛", "デュアルユース"],
+      portfolio: ["Momentus", "Morpheus Space", "Orbital Sidekick"],
+      overview: "航空宇宙・防衛アクセラレーターのネットワークを生かし、技術検証と事業開発を支援。",
+      url: "https://starburst.aero/portfolio/"
+    },
+    {
+      id: "sparx-space-frontier", name: "SPARX 宇宙フロンティアファンド", short: "SFF",
+      type: "vc", typeLabel: "ベンチャーキャピタル", region: "日本・グローバル", stage: "Early–Growth",
+      focus: ["衛星インフラ", "データ利活用", "軌道上サービス"],
+      portfolio: ["アストロスケール", "ispace", "ArkEdge Space", "Pale Blue"],
+      overview: "日本の宇宙産業エコシステム形成を掲げ、アクセスから深宇宙まで幅広く投資。",
+      url: "https://space.sparx.co.jp/portfolio/"
+    },
+    {
+      id: "incubate-fund", name: "インキュベイトファンド", short: "IF",
+      type: "vc", typeLabel: "ベンチャーキャピタル", region: "日本・アジア", stage: "Pre-seed–Early",
+      focus: ["フロンティアテック", "宇宙輸送", "ロボティクス"],
+      portfolio: ["将来宇宙輸送システム", "SUiCTE", "Deep Tech企業"],
+      overview: "創業前後の起業家支援に強みを持ち、宇宙を含むフロンティアテックへ投資。",
+      url: "https://incubatefund.com/portfolio_cat/frontier-tech/"
+    },
+    {
+      id: "ae-industrial-partners", name: "AE Industrial Partners", short: "AEI",
+      type: "pe", typeLabel: "PE・グロース", region: "米国", stage: "Growth–Buyout",
+      focus: ["航空宇宙・防衛", "宇宙製造", "産業統合"],
+      portfolio: ["Firefly Aerospace", "Redwire", "York Space Systems"],
+      overview: "航空宇宙・防衛・政府サービスに特化し、成長投資と企業統合を手掛ける。",
+      url: "https://www.aeroequity.com/portfolio"
+    },
+    {
+      id: "advent-international", name: "Advent International", short: "ADVENT",
+      type: "pe", typeLabel: "PE・グロース", region: "グローバル", stage: "Buyout",
+      focus: ["衛星製造", "地球観測", "宇宙データ"],
+      portfolio: ["Maxar Technologies"],
+      overview: "大規模な企業価値向上投資を行うグローバルPE。宇宙ではMaxarの非公開化を主導。",
+      url: "https://www.adventinternational.com/investments/"
+    },
+    {
+      id: "kkr", name: "KKR", short: "KKR",
+      type: "pe", typeLabel: "PE・グロース", region: "グローバル", stage: "Growth–Buyout",
+      focus: ["衛星システム", "欧州宇宙産業", "産業成長"],
+      portfolio: ["OHB SE"],
+      overview: "成長投資からバイアウトまで幅広く展開し、宇宙・防衛を含む産業技術へ投資。",
+      url: "https://www.kkr.com/investments"
+    },
+    {
+      id: "tpg", name: "TPG", short: "TPG",
+      type: "pe", typeLabel: "PE・グロース", region: "グローバル", stage: "Growth",
+      focus: ["宇宙ステーション", "商業宇宙", "インパクト"],
+      portfolio: ["Voyager Space"],
+      overview: "グロース、インパクト、PE戦略を通じて、商業宇宙インフラの拡大を支援。",
+      url: "https://www.tpg.com/portfolio"
+    },
+    {
+      id: "antarctica-capital", name: "Antarctica Capital", short: "AC",
+      type: "pe", typeLabel: "PE・グロース", region: "米国", stage: "Growth–Buyout",
+      focus: ["地球観測", "データ解析", "インフラ"],
+      portfolio: ["EarthDaily Analytics"],
+      overview: "インフラ、デジタル、宇宙データ関連資産へ長期的な成長資本を提供。",
+      url: "https://antarcticacapital.com/"
+    }
+  ];
+})();
+
+</script>
+<script>
+"use strict";
+const esc=s=>String(s??"").replace(/[&<>'"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;","'":"&#39;",'"':"&quot;"}[c]));
+const safeUrl=value=>{try{const u=new URL(value);return u.protocol==="https:"?u.href:"#"}catch{return "#"}};
+const grid=document.getElementById("grid"),empty=document.getElementById("empty"),search=document.getElementById("search");let activeFilter="all";
+function card(i){const searchable=[i.name,i.typeLabel,i.region,i.stage,i.overview,...i.focus,...i.portfolio].join(" ").toLowerCase();return `<article class="card" data-type="${esc(i.type)}" data-search="${esc(searchable)}"><div class="head"><div class="mark">${esc(i.short)}</div><div><h2 class="name">${esc(i.name)}</h2><div class="type">${esc(i.typeLabel)}</div></div></div><p class="overview">${esc(i.overview)}</p><div class="meta"><div><small>REGION</small><span>${esc(i.region)}</span></div><div><small>STAGE</small><span>${esc(i.stage)}</span></div></div><div class="section-label">FOCUS</div><div class="tags">${i.focus.map(x=>`<span class="tag">${esc(x)}</span>`).join("")}</div><div class="section-label">REPRESENTATIVE PORTFOLIO</div><div class="portfolio">${i.portfolio.map(x=>`<span>${esc(x)}</span>`).join("")}</div><div class="source"><a href="${safeUrl(i.url)}" target="_blank" rel="noopener noreferrer">公式情報を確認 <span aria-hidden="true">↗</span></a></div></article>`}
+const investors=window.INVESTORS||[];grid.insertAdjacentHTML("afterbegin",investors.map(card).join(""));
+const cards=[...grid.querySelectorAll(".card")];
+function render(){const q=search.value.trim().toLowerCase();let shown=0;cards.forEach(c=>{const matchesType=activeFilter==="all"||c.dataset.type===activeFilter;const matchesText=!q||c.dataset.search.includes(q);c.hidden=!(matchesType&&matchesText);if(!c.hidden)shown++});empty.style.display=shown?"none":"block"}
+document.querySelectorAll(".filter").forEach(btn=>btn.addEventListener("click",()=>{document.querySelector(".filter.active")?.classList.remove("active");btn.classList.add("active");activeFilter=btn.dataset.filter;render()}));search.addEventListener("input",render);
+document.getElementById("totalCount").textContent=investors.length;document.getElementById("corporateCount").textContent=investors.filter(x=>x.type==="corporate").length;document.getElementById("vcCount").textContent=investors.filter(x=>x.type==="vc").length;document.getElementById("peCount").textContent=investors.filter(x=>x.type==="pe").length;
+</script>
+</body></html>
